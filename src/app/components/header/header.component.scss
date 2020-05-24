@@ -1,0 +1,42 @@
+.wrapper{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+.container{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+
+
+  img{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 50%;
+  }
+
+}
+
+.tasks-container{
+  width: 35%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+.search{
+  color: grey;
+
+  padding: 5px;
+
+  border: 2px solid grey;
+  border-radius: 50%;
+}
+
+  .add-task{
+    background-color: #fff;
+border-radius: 50%;
+  }
+}
+

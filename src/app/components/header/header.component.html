@@ -1,0 +1,17 @@
+<header class="wrapper">
+  <div class="container">
+  <img src="assets/userImage/Mask.png" alt="User Photo">
+
+    <div class="tasks-container">
+      <mat-icon class="search">search</mat-icon>
+      <button mat-fab color="primary"><mat-icon  color="primary" class="add-task">add-circle</mat-icon></button>
+    </div>
+
+  </div>
+</header>
+
+<section class="user wrapper">
+<h2>Cześć {{userName}}</h2>
+  <p>Masz dzisiaj {{amountOfTasks}} zadania</p>
+  <mat-progress-bar mode="determinate" [value]="doneTasksInPercent" ></mat-progress-bar>
+</section>
