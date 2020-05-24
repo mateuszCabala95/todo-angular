@@ -1,26 +1,39 @@
-mat-card{
-  margin: 15px;
+$padding: 5px;
+
+
+mat-card {
+  margin: 5px;
+  width: 40vw;
+  height: 25vh;
+  display: flex;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
-  mat-icon{
-    padding: 25px;
+
+  width: 100%;
+
+  mat-icon {
+    padding: $padding;
 
     margin-bottom: 50px;
+    font-size: 50px;
   }
 
-  .description{
-    h4{
-      padding-left: 25px;
+  .description {
+    h4 {
+      padding-left: $padding;
       margin: 0;
+      white-space: nowrap
     }
 
-    p{
-      padding-left: 25px;
+    p {
+      padding-left: $padding;
       margin: 0;
+      white-space: nowrap
     }
   }
 }
