@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {TodayTasks} from "./mock.data";
+import {TodayTaskInterface} from "./TodayTask.Interface";
 
 @Component({
   selector: 'app-today-tasks',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodayTasksComponent implements OnInit {
 
-  constructor() { }
+ numberOfTodayTasks = TodayTasks.length;
+ todayTasks: TodayTaskInterface[] = TodayTasks;
+
+
+  constructor() {
+  }
+
+
 
   ngOnInit(): void {
   }

@@ -14,6 +14,8 @@ import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatInputModule} from "@angular/material/input";
 import { TaskFolderComponent } from './components/task-folder/task-folder.component';
 import {MatCardModule} from "@angular/material/card";
+import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import {MatCardModule} from "@angular/material/card";
     MatButtonModule,
     MatProgressBarModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    MatCheckboxModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

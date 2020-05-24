@@ -1,0 +1,65 @@
+section {
+  margin-top: 15px;
+}
+
+.tasks {
+
+}
+
+.task {
+  width: 100%;
+  margin: 15px auto;
+  height: 7vh;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: white;
+
+  border-radius: 10px;
+
+
+  label {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+
+    transition: 0.25s;
+
+    color: coral;
+    font-size: 1.2em;
+
+    mat-icon{
+      color: white;
+      margin: 15px;
+      border: 2px solid mediumpurple;
+      border-radius: 50%;
+    }
+  }
+
+  label.checked{
+    text-decoration-line: line-through;
+  }
+
+  label.checked  mat-icon {
+    color: mediumvioletred;
+    border: none;
+    font-size: 1.5em;
+  }
+}
+
+
+
+input[type='checkbox'] {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+

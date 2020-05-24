@@ -1,1 +1,16 @@
-<p>today-tasks works!</p>
+<section class="wrapper">
+  <h3>Zadania na dziś ({{numberOfTodayTasks}})</h3>
+
+  <div class="tasks">
+    <ng-container *ngFor="let task of todayTasks">
+      <div class="task">
+        <label [class]="task.isDone ? 'checked': null" >
+          <span><mat-icon color="primary">check_circle</mat-icon></span>
+          <input type="checkbox">
+          {{task.title}}
+        </label>
+      </div>
+    </ng-container>
+  </div>
+
+</section>

@@ -1,1 +1,9 @@
-<p>all-tasks works!</p>
+<section class="wrapper">
+  <h3>Wszystkie zadania</h3>
+  <div class="folder-container">
+    <ng-container *ngFor="let task of takskData">
+      <app-task-folder class="task-folder" [color]="task.color" [icon]="task.icon" [taskAmount]="task.taskAmount"
+                       [title]="task.title"></app-task-folder>
+  </ng-container>
+  </div>
+</section>
