@@ -11,13 +11,16 @@ import {MatMenuModule} from "@angular/material/menu";
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import {MatProgressBarModule} from "@angular/material/progress-bar";
+import {MatInputModule} from "@angular/material/input";
+import { TaskFolderComponent } from './components/task-folder/task-folder.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AllTasksComponent,
-    TodayTasksComponent
+    TodayTasksComponent,
+    TaskFolderComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import {MatProgressBarModule} from "@angular/material/progress-bar";
     MatMenuModule,
     MatIconModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
