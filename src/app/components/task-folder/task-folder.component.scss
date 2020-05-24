@@ -1,0 +1,26 @@
+mat-card{
+  margin: 15px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+
+  mat-icon{
+    padding: 25px;
+
+    margin-bottom: 50px;
+  }
+
+  .description{
+    h4{
+      padding-left: 25px;
+      margin: 0;
+    }
+
+    p{
+      padding-left: 25px;
+      margin: 0;
+    }
+  }
+}

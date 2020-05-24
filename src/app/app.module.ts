@@ -13,6 +13,7 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatInputModule} from "@angular/material/input";
 import { TaskFolderComponent } from './components/task-folder/task-folder.component';
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TaskFolderComponent } from './components/task-folder/task-folder.compon
     MatIconModule,
     MatButtonModule,
     MatProgressBarModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
